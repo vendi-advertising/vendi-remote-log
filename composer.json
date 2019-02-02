@@ -22,10 +22,11 @@
         "symfony/dotenv": "4.2.*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "4.2.*",
+        "symfony/orm-pack": "^1.0",
         "symfony/profiler-pack": "^1.0",
+        "symfony/security-bundle": "4.2.*",
         "symfony/twig-bundle": "4.2.*",
         "symfony/yaml": "4.2.*",
-        "vendi-advertising/yaml-schema-to-sql": "^1.0",
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
@@ -33,6 +34,7 @@
         "jakub-onderka/PHP-Parallel-Lint": "dev-master",
         "sensiolabs/security-checker": "^4.1",
         "symfony/debug": "^4.1",
+        "symfony/maker-bundle": "^1.11",
         "symfony/var-dumper": "4.2.*"
     },
     "config": {
