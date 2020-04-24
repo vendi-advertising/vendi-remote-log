@@ -3,6 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
+        <style>
+            html {
+                font-size: 62.5%;
+            }
+            body {
+                font-family: sans-serif;
+                font-size: 1.6rem;
+            }
+            form {
+                max-width: 40rem;
+            }
+
+            [name~="registration_form"] div,
+            .login-form label {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        </style>
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
